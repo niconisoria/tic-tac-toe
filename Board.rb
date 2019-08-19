@@ -21,7 +21,7 @@ class Board
         when '7' then @grid[2][0] = mark
         when '8' then @grid[2][1] = mark
         when '9' then @grid[2][2] = mark
-        else mark_position position, mark
+        else mark_position gets.chomp, mark
         end
     end
 
